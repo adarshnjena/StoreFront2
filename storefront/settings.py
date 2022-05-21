@@ -140,3 +140,5 @@ REST_FRAMEWORK = {
     'COERCE_DECIMAL_TO_STRING': False,
     'PAGE_SIZE': 10
 }
+
+AUTH_USER_MODEL = 'core.User'
